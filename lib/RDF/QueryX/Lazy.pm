@@ -45,7 +45,7 @@ LAZY
 use Scalar::Util 0 qw[blessed refaddr];
 use RDF::Query 2.900;
 
-use base qw[RDF::Query];
+use parent qw[RDF::Query];
 
 sub new
 {
