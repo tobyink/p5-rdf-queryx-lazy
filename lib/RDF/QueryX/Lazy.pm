@@ -8,7 +8,7 @@ use utf8;
 our (%Lazy);
 BEGIN {
 	$RDF::QueryX::Lazy::AUTHORITY = 'cpan:TOBYINK';
-	$RDF::QueryX::Lazy::VERSION   = '0.002';
+	$RDF::QueryX::Lazy::VERSION   = '0.003';
 
 	%Lazy = 
 		map { /^PREFIX (.+?):/ ? ($1 => $_) : () }

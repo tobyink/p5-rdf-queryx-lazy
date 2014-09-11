@@ -26,3 +26,10 @@ dist:v_0-002
 		dcs:item   [rdfs:label "Avoid adding PREFIX declarations that are not used in the query."@en]
 		] .
 
+
+`RDF-QueryX-Lazy 0.003 cpan:TOBYINK`
+	issued    2014-09-11;
+	changeset [
+		item "Switch to Dist::Inkt."^^Packaging;
+	].
+
